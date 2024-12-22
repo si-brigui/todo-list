@@ -9,7 +9,8 @@ Here's a simple To-Do List application built with HTML, CSS, and JavaScript. Thi
 -Responsive UI: A clean and user-friendly interface with a modern design.
 
 +Demo
-To see the demo, you can clone the repository and open the index.html file in your browser.
+To see the demo, you can clone the repository and open the index.html file in your browser:
+https://github.com/si-brigui/todo-list.git
 
  +sceenshots:
 
