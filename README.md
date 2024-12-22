@@ -13,6 +13,9 @@ To see the demo, you can clone the repository and open the index.html file in yo
 https://github.com/si-brigui/todo-list.git
 
  +sceenshots:
+ https://github.com/si-brigui/todo-list/blob/main/todo1.jpg
+ https://github.com/si-brigui/todo-list/blob/main/todo2.jpg
+ https://github.com/si-brigui/todo-list/blob/main/todo3.jpg
 
 +Tech Stack
 -HTML: Structure of the app.
