@@ -1,0 +1,112 @@
+/* Reset styles */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  width: 1600px; /* Quadrupled */
+  padding: 80px; /* Quadrupled */
+  text-align: center;
+  transform: scale(1); /* Ensures scaling is consistent */
+}
+
+h1 {
+  font-size: 96px; /* Quadrupled */
+  color: #333;
+  margin-bottom: 80px; /* Quadrupled */
+}
+
+#newtask {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px; /* Quadrupled */
+}
+
+#newtask input {
+  width: 70%;
+  height: 160px; /* Quadrupled */
+  font-size: 64px; /* Quadrupled */
+  padding: 0 40px; /* Quadrupled */
+  border: 2px solid #ddd;
+  border-radius: 32px; /* Quadrupled */
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+#newtask input:focus {
+  border-color: #6a11cb;
+  background-color: #f3f7ff;
+}
+
+#newtask button {
+  width: 25%;
+  height: 160px; /* Quadrupled */
+  background: #6a11cb;
+  color: #fff;
+  border: none;
+  border-radius: 32px; /* Quadrupled */
+  font-size: 64px; /* Quadrupled */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#newtask button:hover {
+  background: #8b4dff;
+}
+
+#tasks {
+  max-height: 1200px; /* Quadrupled */
+  overflow-y: auto;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  border: 2px solid #ddd;
+  padding: 40px; /* Quadrupled */
+  margin-bottom: 40px; /* Quadrupled */
+  border-radius: 32px; /* Quadrupled */
+}
+
+.task span {
+  font-size: 64px; /* Quadrupled */
+  color: #333;
+  flex: 1; /* Makes the text take up available space */
+}
+
+.task button {
+  background: #6a11cb;
+  color: #fff;
+  border: none;
+  border-radius: 32px; /* Quadrupled */
+  cursor: pointer;
+  font-size: 48px; /* Quadrupled */
+  padding: 20px 40px; /* Quadrupled */
+  margin-left: 20px; /* Quadrupled */
+}
+
+.task button:hover {
+  background: #8b4dff;
+}
+
+.task .edit-btn {
+  margin-right: 20px; /* Adds spacing between Edit and Delete buttons */
+}
